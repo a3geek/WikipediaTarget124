@@ -1,0 +1,31 @@
+#main {
+    text-align: center;
+    margin: 20px 50px 0px 50px;
+    height: 1050px;
+}
+
+#search-form {
+    margin-top: 50px;
+}
+
+#search-word {
+    margin-top: 75px;
+    margin-left: 25%;
+    max-width: 50%;
+}
+
+#search-button {
+    margin-top: 25px;
+}
+
+#loader {
+    visibility: hidden;
+}
+
+#searched-words {
+    display: none;
+}
+
+#links {
+    margin-top: 100px;
+}

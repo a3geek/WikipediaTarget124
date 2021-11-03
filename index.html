@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wikipediaターゲット124万</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/css-loader/3.3.3/css-loader.css"
+    integrity="sha512-HrLBWHEIRcc9ZemiLhR34DVdkr81NVqhOtT1fIZGdcY5UmC5JzJAEwuj9B/fcNA6huJ3NQ8KV67CmdM/3H2H3g=="
+    crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="main">
+        <h1>Wikipediaターゲット124万</h1>
+        <h5>Wikipediaで言葉を検索して関連語を紐付ける</h5>
+
+
+        <form id="search-form" action="./words_register.php" method="post">
+            <div id="search-word" class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">言葉</span>
+                </div>
+                <input name="master" id="search-word-input" class="form-control" type="search">
+            </div>
+
+            <input name="words" id="searched-words">
+
+            <button type="button" id="search-button" class="btn btn-primary btn-lg">検索</button>
+        </form>
+        
+        <p id="links">
+            <a href="./words_viewer.html">保存された言葉を確認する</a>
+        </p>
+    </div>
+
+    <div id="loader" class="loader loader-default is-active" data-text></div>
+</body>
+
+</html>

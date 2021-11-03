@@ -1,0 +1,39 @@
+#main {
+    text-align: center;
+    margin: 20px 50px 0px 50px;
+    display: none;
+    height: 1050px;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+#content #params {
+    margin-right: 50px;
+}
+
+#content .controls {
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#content .controls p {
+    margin-top: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+#content .controls img {
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+#content #searchWordButton {
+    margin-top: 5px;
+}
